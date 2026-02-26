@@ -1,5 +1,4 @@
 function ProductCard({ product }) {
-    console.log(product.title)
   return (
     <div className="card">
       <img src={product.image} alt={product.title} />
